@@ -1,0 +1,18 @@
+# Dependencies / Library (Fail berat)
+node_modules/
+vendor/
+
+# Fail peribadi & Rahsia (Security!)
+.env
+.env.local
+*.log
+
+# Fail sampah OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Output Build
+dist/
+build/
