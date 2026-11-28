@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myKomuniti - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <h2>myKomuniti</h2>
+            <p>Taman Bertam Jaya - Hazard Reporting</p>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="login.html" class="active">Login / Register</a>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main class="register-container">
+
+        <section class="register-form">
+
+            <h2>Create Resident Account</h2>
+
+            <p>
+                Register to submit and track hazard reports
+                in Taman Bertam Jaya.
+            </p>
+
+            <form action="profile.html" method="get">
+
+                <label for="fullname">Full Name (as per MyKad):</label>
+                <br>
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required>
+
+                <br><br>
+
+                <label for="email">Email Address:</label>
+                <br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                    required>
+
+                <br><br>
+
+                <label for="address">House Address (Taman Bertam Jaya):</label>
+                <br>
+                <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Enter your house address"
+                    required>
+
+                <br><br>
+
+                <label for="password">Password:</label>
+                <br>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Minimum 8 characters"
+                    minlength="8"
+                    required>
+
+                <br><br>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <br>
+                <input
+                    type="password"
+                    id="confirmPassword"
+                    name="confirmPassword"
+                    placeholder="Re-enter your password"
+                    minlength="8"
+                    required>
+
+                <br><br>
+
+                <label for="phone">Phone Contact:</label>
+                <br>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="e.g. 012-3456789"
+                    required>
+
+                <br><br>
+
+                <button type="submit">Submit Registration</button>
+
+            </form>
+
+            <p>
+                Already registered?
+                <a href="login.html">Login here</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <h3>Contact Community Management</h3>
+
+        <div class="contact">
+
+            <div>
+                <h4>Ketua Taman Hotline</h4>
+                <p>+60 12-345 6789</p>
+            </div>
+
+            <div>
+                <h4>Official Support Email</h4>
+                <p>support@mykomuniti.my</p>
+            </div>
+
+            <div>
+                <h4>Community Office Hours</h4>
+                <p>Monday - Friday, 9:00 AM - 5:00 PM</p>
+            </div>
+
+        </div>
+
+        <p>
+            Copyright 2026 myKomuniti - Public Hazard Reporting
+            and Prevention System
+        </p>
+
+        <p>Taman Bertam Jaya, Melaka</p>
+
+    </footer>
+
+</body>
+</html>
